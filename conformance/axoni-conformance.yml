@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+source: https://axoni.com
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: Axoni states on its homepage that it is SOC 2 Type 2 certified, with a reference to AICPA-CIMA information.
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI or documented OAuth surface; developer documentation is access-gated.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public API specification available to assess error format.

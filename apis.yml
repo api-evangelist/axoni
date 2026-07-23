@@ -1,7 +1,29 @@
 aid: axoni
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axoni.png
 name: Axoni
-description: Axoni is a company surfaced as a portfolio company of a16z, dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Axoni is a New York-based financial data infrastructure company that provides
+  real-time, automated replication of data between institutions, reducing
+  reconciliations, data pipeline management cost, and operational risk across
+  capital markets. Its platform lets banks, asset managers, and market
+  infrastructure providers rapidly deploy critical financial networks and share
+  post-trade data in real time. Axoni is used by leading institutions including
+  JPMorgan, Deutsche Bank, BlackRock, and Citigroup, and has been recognized by
+  Risk.net, the A-Team Group, and Forbes Fintech 50. The company is SOC 2 Type 2
+  certified and is backed by a16z and DCVC. Axoni does not currently publish a
+  public developer portal, API reference, or SDKs; its documentation surface is
+  access-gated to customers.
 url: https://raw.githubusercontent.com/api-evangelist/axoni/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Services
+- Capital Markets
+- Post-Trade
+- Data Infrastructure
+- Data Replication
+- Fintech
+- Distributed Ledger
 apis: []
+common:
+- type: Website
+  url: https://axoni.com
+- type: About
+  url: https://axoni.com/company
+- type: GitHubOrganization
+  url: https://github.com/axoni
+- type: Support
+  url: https://info.axoni.com/request-demo
+- type: Compliance
+  url: https://axoni.com
+- type: Conformance
+  url: conformance/axoni-conformance.yml
+- type: DomainSecurity
+  url: security/axoni-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
