@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Post-Trade
 - Data Infrastructure
@@ -64,6 +64,7 @@ tags_raw:
 - Data Replication
 - Fintech
 - Distributed Ledger
+- Financial-Services
 apis: []
 common:
 - type: Website
